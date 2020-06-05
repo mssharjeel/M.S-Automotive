@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.S Automotive</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        span {
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+                <a class="navbar-brand" href="#">
+                    <h1>M.S Automotive </h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto text-white">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Usedcar.html">Used Cars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./newcars.html">New Cars</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./contact.html">Contact Us <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <section>
+
+        <div class="container-fluid bg-light py-5">
+
+            <div class="container">
+                <h2 class="text-primary text-center text-capitalize pb-4">contact us</h2>
+
+                <form class="mx-auto w-50">
+                    <div class="form-group">
+                        <label for="uname">Name:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Enter your Name" name="uname"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sub">Subject:</label>
+                        <input type="text" class="form-control" id="sub" name="sub">
+                    </div>
+                    <div class="form-group">
+                        <label for="num">Telephone no:</label>
+                        <input type="number" class="form-control" id="num" placeholder="Enter your number" name="num"
+                            required>
+                    </div>
+
+
+                    <div class="form-group ">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country:</label>
+                        <input type="text" class="form-control" id="country" placeholder="Enter your Country"
+                            name="country" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" class="form-control" id="city" placeholder="Enter your City" name="city"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Message:</label>
+                        <textarea class="form-control" name="" id="" cols="10" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid bg-dark text-white py-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-10 col-md-10 col-12">
+                        <p>2020 © All rights reserved</p>
+                    </div>
+                    <div class="col col-lg-2 col-md-2 col-12 ml-auto">
+                        <a class="mr-3" href=""><img src="./media/fbicon.png" width="20" height="20"></a>
+                        <a class="mr-3" href="" class="twi"><img src="./media/twitter.png" width="20" height="20"></a>
+                        <a class="mr-3" href="" class="insta"><img src="./media/whatsapp.png" width="20"
+                                height="20"></a>
+                        <a class="mr-3" href="" class="you"><img src="./media/youtube.png" width="20" height="20"></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
